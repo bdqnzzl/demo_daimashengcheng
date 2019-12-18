@@ -22,6 +22,7 @@ public class DateController {
     @ApiImplicitParam(paramType = "query",name= "cityid" ,value = "城市id",dataType = "string")
     @ApiOperation(value = "通过城市id获取天气信息", notes="返回城市天气信息")
     public ResponseEntity<Object> getDateInfo(HttpServletRequest request) {
+
         return new ResponseEntity<>("acdsf", HttpStatus.OK);
     }
 }
